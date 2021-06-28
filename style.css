@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Source Sans Pro";
+    font-family: "Lato";
 }
 
 body{
@@ -14,8 +14,8 @@ body{
     padding: 20px 20px;
     align-items: center;
     justify-content: center;
-    background-image: url(img/bgcover.jpg);
-    color: #fff;
+    background: linear-gradient(#5cb19d, #a0c4bb);
+    color: #6e6d6d;
 }
 
 .avatar-container{
@@ -32,6 +32,10 @@ body{
     flex-direction: column;
 }
 
+.icons-container{
+    margin: 1rem 8rem; 
+}
+
 .footer{
     display: flex;
     align-items: center;
@@ -42,25 +46,39 @@ body{
 a{
     text-decoration: none;
     width: 350px;
-    color: #000;
-    background: #b1aeae;
+    color: #202020;
+    background: transparent;
     font-size: 1.6rem;
     text-align: center;
     margin-top: 1.1rem;
-    border: 2px solid #000;
-    border-radius: 7px;
+    border: 2px solid #202020;
+    border-radius: 4px;
     padding: 8px;
 }
 
 a:hover{
-    color: #7763bf;
+    font-weight: 600;
+    color: #fff;
     background: transparent;
-    border: 2px solid #7763bf;
+    border: 2px solid #202020;
 
 }
 
+img{
+    margin: .4rem;
+    display: inline-flex;
+}
+
+.icons-link{
+    border: none;
+}
+
+.icons-link:hover{
+    border: none;
+}
+
 .text-footer{
-    color: #7763bf;
+    color: #202020;
 }
 
 h1{
