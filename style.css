@@ -14,8 +14,8 @@ body{
     padding: 20px 20px;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(#5cb19d, #a0c4bb);
-    color: #6e6d6d;
+    background: linear-gradient(#fbfaff, #615ebe);
+    color: #202020;
 }
 
 .avatar-container{
@@ -43,6 +43,16 @@ body{
     margin-top: 2rem;
 }
 
+.playlist-container, .bio-container{
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.playlist-container > iframe{
+    margin-top: 1.2rem;
+}
+
 a{
     text-decoration: none;
     width: 350px;
@@ -50,31 +60,20 @@ a{
     background: transparent;
     font-size: 1.6rem;
     text-align: center;
-    margin-top: 1.1rem;
-    border: 2px solid #202020;
-    border-radius: 4px;
+    margin-top: 1.5rem;
+    border: 1px solid #202020;
+    border-radius: 50px;
     padding: 8px;
 }
 
 a:hover{
-    font-weight: 600;
-    color: #fff;
-    background: transparent;
-    border: 2px solid #202020;
-
+    color: #e7e7e7;
+    background: #202020;
 }
 
 img{
     margin: .4rem;
     display: inline-flex;
-}
-
-.icons-link{
-    border: none;
-}
-
-.icons-link:hover{
-    border: none;
 }
 
 .text-footer{
