@@ -13,7 +13,7 @@ body{
     padding: 20px 20px;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(#fbfaff, #615ebe);
+    background: linear-gradient(#fbfaff, #1f1b7e);
     color: #20202060;
     font-weight: 600;
 }
@@ -77,16 +77,16 @@ img{
 }
 
 .text-footer{
-    color: #202020;
+    color: #20202060;
 }
 
 h1{
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 4rem;
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: .4rem;
+    
 }
 
