@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
 
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lato";
+    font-family: 'Poppins';
 }
 
 body{
@@ -15,7 +14,8 @@ body{
     align-items: center;
     justify-content: center;
     background: linear-gradient(#fbfaff, #615ebe);
-    color: #202020;
+    color: #20202060;
+    font-weight: 600;
 }
 
 .avatar-container{
@@ -58,12 +58,12 @@ a{
     width: 350px;
     color: #202020;
     background: transparent;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: center;
     margin-top: 1.5rem;
     border: 1px solid #202020;
-    border-radius: 50px;
-    padding: 8px;
+    padding: 4px;
+    font-weight: 900;
 }
 
 a:hover{
