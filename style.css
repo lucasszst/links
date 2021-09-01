@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1{
+    font-weight: 700;
 }
 
 body{
@@ -13,8 +17,8 @@ body{
     padding: 20px 20px;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(#fbfaff, #1f1b7e);
-    color: #20202060;
+    background: #fff;
+    color: #202020;
     font-weight: 600;
 }
 
@@ -26,7 +30,7 @@ body{
 .link-container{
     margin: 0 auto; 
     display: flex;
-    margin-top: 2rem;
+    margin-top: 45px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -43,7 +47,7 @@ body{
     margin-top: 2rem;
 }
 
-.playlist-container, .bio-container{
+.playlist-container{
     margin: 0 auto; 
     text-align: center;
     margin-top: 3rem;
@@ -55,20 +59,22 @@ body{
 
 a{
     text-decoration: none;
-    width: 350px;
-    color: #202020;
-    background: transparent;
+    width: 400px;
+    color: #fff;
+    background: #111111;
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 1.5rem;
-    border: 1px solid #202020;
-    padding: 4px;
+    margin-top: 8px;
+    padding: 12px;
     font-weight: 900;
+    transform: scale(0.9);
+    transition: 0.2s;
 }
 
 a:hover{
-    color: #e7e7e7;
-    background: #202020;
+    transform: scale(1);
+    color:#111111;
+    background: rgb(235, 197, 72);
 }
 
 img{
