@@ -55,13 +55,15 @@ body{
 
 .playlist-container > iframe{
     margin-top: 1.2rem;
+    border-radius: 20px;
 }
 
 a{
     text-decoration: none;
-    width: 400px;
-    color: #fff;
-    background: #111111;
+    width: 350px;
+    color: #111111;
+    border: 2px solid #111111;
+    border-radius: 2px;
     font-size: 1.4rem;
     text-align: center;
     margin-top: 8px;
@@ -73,8 +75,8 @@ a{
 
 a:hover{
     transform: scale(1);
-    color:#111111;
-    background: rgb(235, 197, 72);
+    color: #fff; 
+    background: #111111
 }
 
 img{
