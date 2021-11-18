@@ -6,21 +6,33 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #f6fff8;
+    background: #003049;
 }
 
 h1{
     font-weight: 700;
     font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 4rem;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: .4rem;
 }
 
 h1::selection{
-    background-color: #cce3de;
+    background-color: #669bbc; 
     color: #000;
 }
 
 p::selection{
-    background-color: #cce3de;
+    background-color: #669bbc;
+    color: #000;
+}
+
+span::selection{
+    background-color: #669bbc;
     color: #000;
 }
 
@@ -30,7 +42,7 @@ body{
     padding: 20px 20px;
     align-items: center;
     justify-content: center;
-    color: #5c5b5b;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -39,16 +51,9 @@ body{
     text-align: center;
 }
 
-/*  - Vamos namorar? 
-    - Ok!
-    - É agora que tenho que alimentar você? 
-*/ 
 
-.avatar-container > p{
-    font-weight: 300;
-}
-
-.link-container{
+/* LINKS CONTAINER */
+.link-container {
     margin: 0 auto; 
     display: flex;
     margin-top: 45px;
@@ -57,16 +62,81 @@ body{
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+    width: 390px;
+    color: #000;
+    background: #fdf0d5;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8px;
+    padding: 12px;
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: scale(1);
+    color: #fff; 
+    background-color: #669bbc;
+}
+
 .link-container > p{
    padding-top: 15px;
 }
 
-/*  Tudo bem não estar bem.  */ 
-
-.icons-container{
-    margin: 1rem 8rem; 
+.social-container{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
+.instagram{
+    text-decoration: none;
+    width: 130px;
+    color: #fff;
+    background-image: linear-gradient(#713db8, #d8307f);
+    border-radius: 0px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.facebook{
+    text-decoration: none;
+    width: 130px;
+    color: #fff;
+    background: #1877f2;
+    border-radius: 0px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.youtube{
+    text-decoration: none;
+    width: 130px;
+    color: #fff;
+    background: #dd1b1b;
+    border-radius: 0px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+/*  Tudo bem não estar bem.  */ 
+
+
+/* Rodapé */ 
 .footer{
     display: flex;
     align-items: center;
@@ -74,54 +144,8 @@ body{
     margin-top: 2rem;
 }
 
-.playlist-container{
-    margin: 0 auto; 
-    text-align: center;
-    margin-top: 3rem;
-}
-
-.playlist-container > iframe{
-    margin-top: 1.2rem;
-    border-radius: 20px;
-}
-
-a{
-    text-decoration: none;
-    width: 390px;
-    color: #5c5b5b;
-    border: 1px solid #5c5b5b;
-    border-radius: 15px;
-    font-size: 1.4rem;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 8px;
-    padding: 12px;
-    transform: scale(0.9);
-    transition: 0.3s;
-}
-
-a:hover{
-    transform: scale(1);
-    color: #f6fff8; 
-    background-color: #5c5b5b;
-}
-
-img{
-    margin: .4rem;
-    display: inline-flex;
-}
-
 .text-footer{
-    color: #20202060;
+    color: #fff;
 }
 
-h1{
-    font-size: 4rem;
-}
-
-p{
-    font-size: 1rem;
-    margin-top: .4rem;
-    
-}
 
