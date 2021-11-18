@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #003049;
+    background: #0f222c;
 }
 
 h1{
@@ -65,11 +65,11 @@ body{
 a{
     text-decoration: none;
     width: 390px;
-    color: #000;
-    background: #fdf0d5;
+    color: #fff;
+    background: #669bbc;
     border-radius: 50px;
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 300;
     text-align: center;
     margin-top: 8px;
     padding: 12px;
@@ -79,8 +79,9 @@ a{
 
 a:hover{
     transform: scale(1);
-    color: #fff; 
-    background-color: #669bbc;
+    font-weight: 700;
+    /*color: #000; 
+    background-color: #669bbc;*/
 }
 
 .link-container > p{
@@ -99,19 +100,6 @@ a:hover{
     width: 130px;
     color: #fff;
     background-image: linear-gradient(#713db8, #d8307f);
-    border-radius: 0px;
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 8px;
-    padding: 8px;
-}
-
-.facebook{
-    text-decoration: none;
-    width: 130px;
-    color: #fff;
-    background: #1877f2;
     border-radius: 0px;
     font-size: 1rem;
     font-weight: 300;
