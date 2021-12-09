@@ -6,43 +6,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #0f222c;
+    background: #f8f9fb;
 }
 
 h1{
     font-weight: 700;
     font-family: 'Dancing Script', cursive, sans-serif;
-    font-size: 4rem;
-}
-
-p {
-    font-weight: 300;
-    font-size: 1rem;
-    margin-top: .4rem;
+    font-size: 5rem;
 }
 
 h1::selection{
-    background-color: #669bbc; 
+    background-color: #aecbeb; 
     color: #000;
 }
 
 p::selection{
-    background-color: #669bbc;
+    background-color: #aecbeb;
     color: #000;
 }
 
 span::selection{
-    background-color: #669bbc;
+    background-color: #aecbeb;
     color: #000;
 }
 
 body{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 20px 20px;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
     font-weight: 600;
 }
 
@@ -55,20 +50,18 @@ body{
 /* LINKS CONTAINER */
 .link-container {
     margin: 0 auto; 
-    display: flex;
-    margin-top: 45px;
+    margin-top: 50px;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: center; 
 }
 
 a{
     text-decoration: none;
-    width: 390px;
+    width: 300px;
     color: #fff;
-    background: #669bbc;
-    border-radius: 50px;
-    font-size: 1.4rem;
+    background: #71a5de;
+    border-radius: 4px;
+    font-size: 1.7rem;
     font-weight: 300;
     text-align: center;
     margin-top: 8px;
@@ -79,47 +72,14 @@ a{
 
 a:hover{
     transform: scale(1);
-    font-weight: 700;
-    /*color: #000; 
-    background-color: #669bbc;*/
+    color: #000; 
+    background-color: #e1ecf7;
 }
 
 .link-container > p{
    padding-top: 15px;
 }
 
-.social-container{
-    display: flex;
-    margin-top: 25px;
-    justify-content: center;
-    align-items: center;
-}
-
-.instagram{
-    text-decoration: none;
-    width: 130px;
-    color: #fff;
-    background-image: linear-gradient(#713db8, #d8307f);
-    border-radius: 0px;
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 8px;
-    padding: 8px;
-}
-
-.youtube{
-    text-decoration: none;
-    width: 130px;
-    color: #fff;
-    background: #dd1b1b;
-    border-radius: 0px;
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 8px;
-    padding: 8px;
-}
 
 /*  Tudo bem não estar bem.  */ 
 
@@ -127,13 +87,39 @@ a:hover{
 /* Rodapé */ 
 .footer{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 10rem;
 }
 
-.text-footer{
-    color: #fff;
+@media screen and (max-width: 780px){
+    .link-container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    a{
+        text-decoration: none;
+        width: 390px;
+        color: #fff;
+        background: #669bbc;
+        border-radius: 4px;
+        font-size: 1.4rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 8px;
+        padding: 12px;
+        transform: scale(0.9);
+        transition: 0.2s;
+    }
+
+    .footer{
+        margin-top: 2rem;
+    }
 }
 
 
