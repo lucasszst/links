@@ -1,10 +1,14 @@
 <!DOCTYPE html>
+<!--
+    "Somos como bolhas de sabão, feitas por um sopro e a um sopro desfeitas". 
+                                                             Marta Wanzeler 
+-->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hi, I am Lucas, front-end developer and UI/UX designer.">
+    <meta name="description" content="Oi, eu sou o Lucas. Sou um desenvolvedor front-end que está em constante aprendizado.">
     <link rel="icon" href="/img/apple-touch-icon.png" type="image/png">
 
     <title>links | lucasszst</title>
@@ -13,27 +17,36 @@
 
 </head>
 <body>
-    <div class="avatar-container">
+    <div class="avatar-container" aria-label="avatar container">
         <div class="avatar-image">
-            <img src="img/avataaars(1).png" widht="500" height="200" alt="um avatar parecido com o Lucas">
+            <img src="img/avataaars(1).png" aria-label="avatar parecido com o Lucas" widht="500" height="200" alt="um avatar parecido com o Lucas">
         </div>
-        <h1>Lucas Suzin Santos</h1>
-        <p>from Caxias do Sul - RS</p>
+        <h1 aria-label="Lucas Suzin Santos">Lucas Suzin Santos</h1>
+        <p aria-label="de Caxias do Sul-RS">from Caxias do Sul - RS</p>
     </div><!-- Avatar container -->
 
-    <section class="link-container">
-        <a href="#" target="__blank">🧐 portfólio (em breve)</a>
-        <a href="https://www.linkedin.com/in/lucas-s-310352193/" target="_blank">🙂 linkedln</a>
-        <a href="https://github.com/lucasszst" target="_blank">👨‍💻 github</a>
-        <a href="https://instagram.com/lucasszt" target="_blank">🎞️ instagram</a>
-        <a href="https://500px.com/p/lucassuzin?view=photos" target="_blank">♥️ hobby</a> 
+    <section class="banner-container">
+        <h1 class="banner-title">então é Natal...</h1>
+        <p class="banner-info">Natal é tempo de comemorar a vida (também aproveitar as farturas da mesa)
+            espalhar o amor e semear a espererança.
+            <br>Tenha um <b>Feliz Natal!</b> 
+        </p>
+    </section><!-- banner container -->
+
+    <section class="link-container" aria-label="links container">
+        <a href="#" aria-label='link para o portfólio em breve' target="__blank">🧐 portfólio (em breve)</a>
+        <a href="https://www.linkedin.com/in/lucas-s-310352193/" aria-label='perfil do linkedin' target="_blank">💼 linkedln</a>
+        <a href="https://github.com/lucasszst" aria-label='perfil do github' target="_blank">👨‍💻 github</a>
+        <a href="https://instagram.com/lucasszt" aria-label='perfil do instagram' target="_blank">📷 instagram</a>
+        <a href="https://500px.com/p/lucassuzin?view=photos" aria-label='perfil do 500px' target="_blank">👀 hobby</a> 
     </section><!-- LINKS container -->
 
 
-    <div class="footer">
+    <div class="footer" aria-label="rodapé">
         <div class="text-footer">
-            <span>&copy; 2021 - feito por @lucasszst</span>
+            <span aria-label="copyright 2021">&copy; 2021.</span>
         </div>
-    </div>
+    </div><!-- footer -->
+
 </body>
 </html>
