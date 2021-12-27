@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Murecho', sans-serif;
-    background: #fafcff;
 }
 
 h1{
@@ -16,13 +15,13 @@ h1{
 }
 
 .banner-container{
-    border: 3px solid #bb2525;
+    border: 2px solid #202020;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    padding: 9px 16px;
-    max-width: 80%;
+    padding: 14px 22px;
+    width: 400px;
     justify-content: center;
     align-items: center;
 }
@@ -66,6 +65,7 @@ body{
     justify-content: center;
     color: #000;
     font-weight: 600;
+    background: #fafcff;
 }
 
 .avatar-container{
