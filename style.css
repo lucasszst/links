@@ -18,28 +18,25 @@ h1{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    padding: 14px 22px;
     width: 400px;
-    justify-content: center;
-    align-items: center;
 }
 
 .banner-title{
     font-family: 'Murecho', sans-serif;
     font-size: 1.4rem;
-}
-
-.banner-info{
-    text-align: center;
-    font-size: 1.3rem;
     text-align: center;
 }
 
-p{
+p {
     font-weight: 400;
 }
 
 h1::selection{
+    background-color: #fff; 
+    color: #000;
+}
+
+h2::selection{
     background-color: #fff; 
     color: #000;
 }
@@ -56,6 +53,7 @@ span::selection{
 
 body{
     display: flex;
+    max-height: 112vh;
     flex-direction: column;
     max-width: 100%;
     margin: 0 auto;
@@ -68,7 +66,7 @@ body{
 }
 
 .avatar-container{
-    margin: 0 auto;
+    padding-top: 15px;
     text-align: center;
 }
 
@@ -81,12 +79,34 @@ body{
     justify-content: center; 
 }
 
+.link-portphotos {
+    margin: 35px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.portphotos-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.link-photo {
+    background: none;
+    border: 1px solid #fff;
+}
+
+.link-photo:hover {
+    background: none;
+    color: #fff;
+}
+
 a{
     text-decoration: none;
     width: 300px;
     margin: 4px;
     color: #000;
     background: #fff;
+    border-radius: 6px;
     font-size: 1.2rem;
     text-align: center;
     margin-top: 8px;
@@ -113,37 +133,50 @@ a:hover{
 .footer{
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
     align-items: center;
     justify-content: center;
-    margin-top: 10rem;
     font-weight: 500;
 }
 
-/* Responsivo Smartphone */
+/* Responsivo */
 @media screen and (max-width: 600px){
     .link-container{
         display: flex;
         flex-direction: column;
     }
+
+    body{
+        max-height: 300vh;
+    }
+
+    .avatar-container{
+        margin: 0 auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+
     h1{
         font-weight: 700;
         font-size: 3.2rem;
     }
+
     a{
         text-decoration: none;
         width: 350px;
         font-size: 1.6rem;
         text-align: center;
         margin-top: 8px;
-        padding: 12px;
+        padding: 10px;
     }
 
-    .footer{
-        margin-top: 2rem;
+    .portphotos-title {
+        text-align: start;
     }
 
-    .banner-info{
-        font-size: 1.1rem;
+    .banner-title{
+        text-align: start;
+        margin-left: 20px;
     }
 }
 
