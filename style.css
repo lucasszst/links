@@ -14,46 +14,12 @@ h1{
     font-size: 5rem;
 }
 
-.banner-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    width: 400px;
-}
-
-.banner-title{
-    font-family: 'Murecho', sans-serif;
-    font-size: 1.4rem;
-    text-align: center;
-}
-
 p {
     font-weight: 400;
 }
 
-h1::selection{
-    background-color: #fff; 
-    color: #000;
-}
-
-h2::selection{
-    background-color: #fff; 
-    color: #000;
-}
-
-p::selection{
-    background-color: #fff;
-    color: #000;
-}
-
-span::selection{
-    background-color: #fff;
-    color: #000;
-}
-
 body{
     display: flex;
-    max-height: 112vh;
     flex-direction: column;
     max-width: 100%;
     margin: 0 auto;
@@ -61,73 +27,68 @@ body{
     justify-content: center;
     color: #fff;
     font-weight: 600;
-    background: rgb(38,122,173);
-    background: linear-gradient(90deg, rgba(38,122,173,1) 0%, rgba(27,122,76,1) 100%); 
+    background-color: rgb(26, 30, 41);
+    /*background: linear-gradient(90deg, rgb(168, 106, 240) 0%, rgb(255, 255, 255) 80%);*/
 }
 
-.avatar-container{
-    padding-top: 15px;
+.intro-container{
+    padding: 30px;
     text-align: center;
 }
 
 
 /* LINKS CONTAINER */
 .link-container {
-    margin: 0 auto; 
-    margin-top: 30px;
+    margin: 60px auto; 
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-}
-
-.link-portphotos {
-    margin: 35px auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.portphotos-title {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.link-photo {
-    background: none;
-    border: 1px solid #fff;
-}
-
-.link-photo:hover {
-    background: none;
-    color: #fff;
 }
 
 a{
     text-decoration: none;
     width: 300px;
-    margin: 4px;
-    color: #000;
-    background: #fff;
-    border-radius: 6px;
-    font-size: 1.2rem;
+    margin: 6px;
+    color: #fff;
+    background: rgba(209, 209, 209, 0.100);
+    font-size: 1.4rem;
     text-align: center;
     margin-top: 8px;
-    padding: 10px;
+    padding: 15px;
     transition: 0.3s;
-    transform: scale(0.9);
+    transform: scale(0.9); 
 }
 
 a:hover{
     transform: scale(1);
-    color: rgba(27,122,76,1); 
-    background: rgb(255, 255, 255);
+    background-color: rgba(209, 209, 209, 0.400);
 }
 
-.link-container > p{
-   padding-top: 15px;
+.youtube:hover{
+    background-color: #ff0000;
 }
 
+.linkedin:hover{
+    background-color: #0a66c2;
+}
 
-/*  Tudo bem não estar bem.  */ 
+.quinhetospx:hover{
+    background-color: #000000;
+}
 
+.github:hover{
+    background-color: #24292f; 
+}
+
+.pexels:hover{
+    background-color: #05a081;
+}
+
+.instagram:hover{
+    background-image: linear-gradient(to right, #614bc4, #e52462, #fcb95a);
+
+}
 
 /* Rodapé */ 
 .footer{
@@ -136,7 +97,6 @@ a:hover{
     padding: 20px;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
 }
 
 /* Responsivo */
@@ -144,10 +104,6 @@ a:hover{
     .link-container{
         display: flex;
         flex-direction: column;
-    }
-
-    body{
-        max-height: 300vh;
     }
 
     .avatar-container{
@@ -164,19 +120,9 @@ a:hover{
     a{
         text-decoration: none;
         width: 350px;
-        font-size: 1.6rem;
         text-align: center;
         margin-top: 8px;
         padding: 10px;
-    }
-
-    .portphotos-title {
-        text-align: start;
-    }
-
-    .banner-title{
-        text-align: start;
-        margin-left: 20px;
     }
 }
 
